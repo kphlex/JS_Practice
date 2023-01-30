@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="row">
+            <button value="7" onclick="press(7);">7</button>
+            <button value="8" onclick="press(8);">8</button>
+            <button value="9" onclick="press(9);">9</button>
+            <button class="operator" onclick="setOP('/');">÷</button>
+        </div>
+        <div class="row">
+            <button value="4" onclick="press(4);">4</button>
+            <button value="5" onclick="press(5);">5</button>
+            <button value="6" onclick="press(6);">6</button>
+            <button class="operator" onclick="setOP('*');">×</button>
+        </div>
+        <div class="row">
+            <button value="1" onclick="press(1);">1</button>
+            <button value="2" onclick="press(2);">2</button>
+            <button value="3" onclick="press(3);">3</button>
+            <button class="operator" onclick="setOP('-');">−</button>
+        </div>
+        <div class="row">
+            <button onclick="clr(this);">C</button>
+            <button value="0" onclick="press(0);">0</button>
+            <button onclick="press('.');">.</button>
+            <button class="operator" onclick="setOP('+');">+</button>
+        </div>
+        <div class="row">
+            <button id="equals" onclick="calculate()">=</div>
+        </div>
+    <div>
+    <script src="app.js"></script>
+</body>
+</html>
