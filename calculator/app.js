@@ -62,3 +62,6 @@ function calculate() {
     valueOne = null;
     whatWeDoing = null; 
 }
+
+
+// push it

@@ -173,3 +173,5 @@ console.log(arr);
 }
 
 swapStringForArrayNegativeVals(arr);
+
+// push it
